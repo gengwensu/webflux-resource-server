@@ -1,0 +1,6 @@
+version: '2'
+services:
+  keycloak: # use jhipster's keycloak.yml "as is"
+    extends:
+      file: keycloak.yml
+      service: keycloak
